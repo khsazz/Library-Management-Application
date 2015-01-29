@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="70277954">
+    <data-source source="LOCAL" name="newPersistenceUnit" uuid="3aeebc54-b5b5-45c7-a138-e5fccbd959a9">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/pizzashop</jdbc-url>
+      <user-name>root</user-name>
+      <libraries>
+        <library>
+          <url>file://C:\Users\Sazz\.m2\repository\mysql\mysql-connector-java\5.1.25\mysql-connector-java-5.1.25.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
