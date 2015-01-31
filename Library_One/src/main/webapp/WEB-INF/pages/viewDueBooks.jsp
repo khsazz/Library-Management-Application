@@ -43,14 +43,15 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top " style="padding-top: 10px;">
         <a data-original-title="Show/Hide Menu" data-placement="bottom" data-tooltip="tooltip"
-           class="accordion-toggle btn btn-primary btn-sm visible-xs" data-toggle="collapse" href="#menu"
+           class="accordion-toggle btn btn-primary btn-sm visible-xs" data-toggle="collapse" href="#"
            id="menu-toggle">
             <i class="icon-align-justify"></i>
         </a>
         <!-- LOGO SECTION -->
         <header class="navbar-header">
 
-            <a href="/admin/dashboard" class="navbar-brand">
+            <a href="<c:url value="/admin/dashboard"/>" class="navbar-brand">
+                <i class = "icon-book icon-2x" style="color: rgb(29, 130, 148);"></i>
                 <img src="<c:url value="/resources/img/soft.png"/>" height="40" width="140" alt=""/>
             </a>
         </header>
@@ -124,16 +125,13 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
         <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h4>
-                    <p class="text-center">Search Issued Books</p>
-                </h4>
-
+            <div class="panel-heading text-center">
+                <h4>Search Issued Books</h4>
             </div>
             <div class="panel-body">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8">
-                    <form action="/admin/dueBooks" id="block-validate">
+                    <form action="<c:url value="/admin/dueBooks"/>" id="block-validate">
                         <div class="form-group">
                             <label>Search by "Book ID" or "Student ID"</label>
                             <input type="text" name="bookid" class="form-control" placeholder="Search Here"
@@ -181,8 +179,8 @@
 <div class="row">
     <!-- search table start -->
     <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h4><p class="text-center">Issued Books</p></h4>
+        <div class="panel-heading text-center">
+            <h4>Issued Books</h4>
         </div>
         <div class="panel-body">
             <div class="panel panel-default">
@@ -257,7 +255,8 @@
                                                 <c:param name="issueID" value="${issue.issueID}"></c:param>
                                                 <c:param name="radio" value="${radio}"></c:param>
                                             </c:url>">
-                                                <button class="btn btn-danger btn-xs btn-round">Delete</button>
+                                                <button class="btn btn-danger btn-xs btn-round">
+                                                    <i class = "icon-trash"></i> Delete</button>
                                             </a>
                                         </td>
                                     </tr>

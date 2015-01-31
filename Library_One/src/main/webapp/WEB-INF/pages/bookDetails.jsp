@@ -44,14 +44,14 @@
 
         <nav class="navbar navbar-inverse navbar-fixed-top " style="padding-top: 10px;">
             <a data-original-title="Show/Hide Menu" data-placement="bottom" data-tooltip="tooltip"
-               class="accordion-toggle btn btn-primary btn-sm visible-xs" data-toggle="collapse" href="#menu"
+               class="accordion-toggle btn btn-primary btn-sm visible-xs" data-toggle="collapse" href="#"
                id="menu-toggle">
                 <i class="icon-align-justify"></i>
             </a>
             <!-- LOGO SECTION -->
             <header class="navbar-header">
-
-                <a href="/welcome" class="navbar-brand">
+                <a href="<c:url value="/welcome"/>" class="navbar-brand">
+                    <i class = "icon-book icon-2x" style="color: rgb(29, 130, 148);"></i>
                     <img src="<c:url value="/resources/img/soft.png"/>" height="40" width="140" alt=""/>
                 </a>
             </header>
@@ -124,11 +124,8 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
         <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h4>
-                    <p class="text-center">Book Information</p>
-                </h4>
-
+            <div class="panel-heading text-center">
+                <h4>Book Information</h4>
             </div>
             <div class="panel-body">
                 <div class="col-md-4">

@@ -55,7 +55,7 @@
 
         <div class="col-lg-6  col-lg-offset-3">
             <div class="btn-group btn-group-justified">
-                <a href="/library/auth" class="btn btn-primary">Retry</a>
+                <a href="<c:url value="/library/auth"/>" class="btn btn-primary">Retry</a>
             </div>
 
         </div>

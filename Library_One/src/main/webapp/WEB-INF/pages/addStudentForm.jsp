@@ -47,14 +47,14 @@
 
         <nav class="navbar navbar-inverse navbar-fixed-top " style="padding-top: 10px;">
             <a data-original-title="Show/Hide Menu" data-placement="bottom" data-tooltip="tooltip"
-               class="accordion-toggle btn btn-primary btn-sm visible-xs" data-toggle="collapse" href="#menu"
+               class="accordion-toggle btn btn-primary btn-sm visible-xs" data-toggle="collapse" href="#"
                id="menu-toggle">
                 <i class="icon-align-justify"></i>
             </a>
             <!-- LOGO SECTION -->
             <header class="navbar-header">
-
-                <a href="/admin/dashboard" class="navbar-brand">
+                <a href="<c:url value="/admin/dashboard"/>" class="navbar-brand">
+                    <i class = "icon-book icon-2x" style="color: rgb(29, 130, 148);"></i>
                     <img src="<c:url value="/resources/img/soft.png"/>" height="40" width="140" alt=""/>
                 </a>
             </header>
@@ -133,7 +133,7 @@
                     <div class="col-lg-12">
                         <div class="box">
                             <div id="collapseOne" class="accordion-body collapse in body">
-                                <form action="/admin/saveStudent" method="post" name="studentForm"
+                                <form action="<c:url value="/admin/saveStudent"/>" method="post" name="studentForm"
                                       class="form-horizontal" id="block-validate">
                                     <div class="form-group">
                                         <label class="control-label col-lg-4">Student's Reg No.</label>

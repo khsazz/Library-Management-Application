@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.springapp</groupId>
-    <artifactId>Running_1</artifactId>
+    <groupId>com.khsazz</groupId>
+    <artifactId>library</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>Running_1</name>
+    <name>Library</name>
 
     <properties>
         <spring.version>3.2.8.RELEASE</spring.version>
@@ -135,7 +135,7 @@
     </dependencies>
 
     <build>
-        <finalName>Running_1</finalName>
+        <finalName>Library</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

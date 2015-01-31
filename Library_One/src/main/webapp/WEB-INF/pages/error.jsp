@@ -58,10 +58,9 @@
             <div class="btn-group btn-group-justified">
                 <a href="javascript:history.back()" class="btn btn-warning">
                     <i class="icon-arrow-left"></i> Go back</a>
-                <a href="/admin/dashboard" class="btn btn-info">
+                <a href="<c:url value="/admin/dashboard"/>" class="btn btn-info">
                     <i class="icon-home"></i> Dashboard</a>
             </div>
-
         </div>
     </div>
 

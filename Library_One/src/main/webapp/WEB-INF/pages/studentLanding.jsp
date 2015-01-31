@@ -29,7 +29,7 @@
         <p class="lead">Digital version of the Seminar Library</p>
 
         <div>&nbsp;</div>
-        <a href="/browseLibrary" class="btn btn-default btn-lg">Open BookShelf</a>
+        <a href="<c:url value="/browseLibrary"/>" class="btn btn-default btn-lg">Open BookShelf</a>
     </div>
 </div>
 

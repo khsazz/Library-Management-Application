@@ -21,9 +21,8 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Sazz on 1/29/2015.
+ * Created by KHSazz on 1/29/2015.
  */
-
 @Controller
 @RequestMapping(value = "/admin")
 public class AdminController {
@@ -125,14 +124,14 @@ public class AdminController {
                                     @RequestParam("bookid")int id,
                                     @RequestParam("optionsRadios")String radio){
         model.setViewName("viewDueBooks");
-        List<Issue> issueList=null;
+        List<Issue> issueList;
         if(radio.equals("Book")){
-            issueList=(List<Issue>)em.createQuery("SELECT i FROM Issue i WHERE i.bookBookId =:id")
+            issueList=em.createQuery("SELECT i FROM Issue i WHERE i.bookBookId =:id")
                     .setParameter("id", id).getResultList();
         }else if(radio.equals("All")){
-            issueList=(List<Issue>)em.createQuery("SELECT i FROM Issue i ").getResultList();
+            issueList=em.createQuery("SELECT i FROM Issue i ").getResultList();
         }else{
-            issueList=(List<Issue>)em.createQuery("SELECT i FROM Issue i WHERE i.studentRegNo =:id")
+            issueList=em.createQuery("SELECT i FROM Issue i WHERE i.studentRegNo =:id")
                     .setParameter("id", id).getResultList();
         }
         Date today = new Date();

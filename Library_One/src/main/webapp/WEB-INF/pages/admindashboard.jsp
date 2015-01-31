@@ -42,14 +42,14 @@
 
         <nav class="navbar navbar-inverse navbar-fixed-top " style="padding-top: 10px;">
             <a data-original-title="Show/Hide Menu" data-placement="bottom" data-tooltip="tooltip"
-               class="accordion-toggle btn btn-primary btn-sm visible-xs" data-toggle="collapse" href="#menu"
+               class="accordion-toggle btn btn-primary btn-sm visible-xs" data-toggle="collapse" href="#"
                id="menu-toggle">
                 <i class="icon-align-justify"></i>
             </a>
             <!-- LOGO SECTION -->
             <header class="navbar-header">
-
-                <a href="/admin/dashboard" class="navbar-brand">
+                <a href="<c:url value="/admin/dashboard"/>" class="navbar-brand">
+                    <i class = "icon-book icon-2x" style="color: rgb(29, 130, 148);"></i>
                     <img src="<c:url value="/resources/img/soft.png"/>" height="40" width="140" alt=""/>
                 </a>
             </header>
@@ -125,11 +125,12 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
         <div class="row" align="center">
-            <hr>
-            <a class="quick-btn" href="/admin/issueBook" style=" width: 200px;height: 250px; ">
-                <span><h2><strong>Issue aaaaa Book</strong></h2></span>
+            <a class="quick-btn" href="<c:url value="/admin/issueBook"/>" style=" width: 200px;height: 250px; ">
+                <i class="icon-ticket icon-3x "></i>
+                <span><h2><strong>Add Book Issue</strong></h2></span>
             </a>
-            <a class="quick-btn" href="/admin/searchDueBook" style=" width: 200px;height: 250px; ">
+            <a class="quick-btn" href="<c:url value="/admin/searchDueBook"/>" style=" width: 200px;height: 250px; ">
+                <i class="icon-exchange icon-3x "></i>
                 <span><h2><strong>Receive Issued Book</strong></h2></span>
             </a>
             <a class="quick-btn" style=" width: 200px;height: 250px; "
@@ -137,21 +138,26 @@
                <c:param name="bookid" value="0"></c:param>
                <c:param name="optionsRadios" value="All"></c:param>
                </c:url>">
+                <i class="icon-list-ul icon-3x "></i>
                 <span><h2><strong>View Issued Books</strong></h2></span>
             </a>
         </div>
         <hr>
         <div class="row" align="center">
-            <a class="quick-btn" href="/admin/addNewBook" style=" width: 220px;height: 180px; ">
+            <a class="quick-btn" href="<c:url value="/admin/addNewBook"/>" style=" width: 220px;height: 180px; ">
+                <i class="icon-book icon-3x"></i>
                 <span><h2><strong>Add Book</strong></h2></span>
             </a>
-            <a class="quick-btn" href="/admin/addStudent" style=" width: 220px;height: 180px; ">
+            <a class="quick-btn" href="<c:url value="/admin/addStudent"/>" style=" width: 220px;height: 180px; ">
+                <i class="icon-user icon-3x "></i>
                 <span><h2><strong>Add Student</strong></h2></span>
             </a>
             <a class="quick-btn" href="#" style=" width: 220px;height: 180px; ">
+                <i class="icon-edit-sign icon-3x "></i>
                 <span><h2><strong>Modify Book</strong></h2></span>
             </a>
             <a class="quick-btn" href="#" style=" width: 220px;height: 180px; ">
+                <i class="icon-edit icon-3x "></i>
                 <span><h2><strong>Modify Student</strong></h2></span>
             </a>
         </div>
@@ -162,9 +168,21 @@
 <!--END MAIN WRAPPER -->
 
 <!-- FOOTER -->
-<div id="footer">
-    <p>&copy; Khsazz &nbsp;2015 &nbsp;</p>
+<div id="footer" style="color: #0B5620; background-color:#E9EADC;">
+    <p>
+        <span>&copy;sustcse'10 | </span>
+        <span>developed by <strong>&nbsp;Khsazz</strong> | </span>
+        <span>fb gm</span>
+    </p>
 </div>
+<%--<div id="footer">--%>
+    <%--<div id="footer-inner">--%>
+        <%--<div id="footer-content">--%>
+           <%--<h3>&copy; &nbsp;techflakes software | web: </h3>--%>
+            <%--<a href="#">techflakes.io</a>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</div>--%>
 <!--END FOOTER -->
 <!-- GLOBAL SCRIPTS -->
 <script src="<c:url value="/resources/assets/plugins/jquery-2.0.3.min.js"/>"></script>
