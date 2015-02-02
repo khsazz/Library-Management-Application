@@ -11,7 +11,7 @@
 <head>
 
     <meta charset="UTF-8"/>
-    <title>Library - Due Books</title>
+    <title>Library | Due Books</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta content="" name="description"/>
     <meta content="" name="author"/>
@@ -19,6 +19,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
     <!-- GLOBAL STYLES -->
+    <link rel="shortcut icon" href="<c:url value="/resources/img/favicon.ico"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/plugins/bootstrap/css/bootstrap.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/assets/css/custom.css"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/css/main.css"/>">
@@ -280,7 +281,7 @@
 
 <!-- FOOTER -->
 <div id="footer">
-    <p>&copy; binarytheme &nbsp;2014 &nbsp;</p>
+    <p>&copy; binary &nbsp;2014 &nbsp;</p>
 </div>
 <!--END FOOTER -->
 <!-- GLOBAL SCRIPTS -->

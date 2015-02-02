@@ -19,6 +19,7 @@
     <![endif]-->
 
     <!-- GLOBAL STYLES -->
+    <link rel="shortcut icon" href="<c:url value="/resources/img/favicon.ico"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/plugins/bootstrap/css/bootstrap.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/assets/css/custom.css"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/css/main.css"/>">
@@ -224,10 +225,10 @@
                                 <c:forEach var="book" items="${books}">
                                     <tr class="success">
                                         <td class="sorting_1">
-                                            <a href="/bookDetails/${book.bookId}">${book.bookId}</a>
+                                            <a href="<c:url value="/bookDetails/${book.bookId}"/>">${book.bookId}</a>
                                         </td>
                                         <td class=" ">
-                                            <a href="/bookDetails/${book.bookId}">${book.title}</a>
+                                            <a href="<c:url value="/bookDetails/${book.bookId}"/>">${book.title}</a>
                                         </td>
                                         <td class=" ">${book.authors}</td>
                                         <td class="center ">${book.bookShelf}</td>

@@ -20,7 +20,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
     <!-- GLOBAL STYLES -->
-    <!-- GLOBAL STYLES -->
+    <link rel="shortcut icon" href="<c:url value="/resources/img/favicon.ico"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/plugins/bootstrap/css/bootstrap.css"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/plugins/Font-Awesome/css/font-awesome.css"/>">
     <!--END GLOBAL STYLES -->

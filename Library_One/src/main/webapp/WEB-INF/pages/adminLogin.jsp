@@ -22,6 +22,7 @@
     <!-- GLOBAL STYLES -->
 
     <!-- PAGE LEVEL STYLES -->
+    <link rel="shortcut icon" href="<c:url value="/resources/img/favicon.ico"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/plugins/bootstrap/css/bootstrap.css"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/css/login.css"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/plugins/magic/magic.css" />">

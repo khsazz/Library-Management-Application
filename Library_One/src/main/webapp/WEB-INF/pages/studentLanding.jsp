@@ -8,9 +8,11 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Booookers</title>
+    <title>LIBRARYYYY</title>
     <meta name="generator" content="Bootply"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="<c:url value="/resources/img/favicon.ico"/>">
     <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet">
     <link rel="stylesheet" href="<c:url value="/resources/font-awesome-4.2.0/css/font-awesome.min.css"/>">
     <%--<!--[if lt IE 9]>--%>
@@ -24,7 +26,7 @@
 <div class="header alt vert">
     <div class="container">
 
-        <h1>Booooookers</h1>
+        <h1>LIBRARYYYY</h1>
 
         <p class="lead">Digital version of the Seminar Library</p>
 

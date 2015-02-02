@@ -10,7 +10,7 @@
 <head>
 
     <meta charset="UTF-8"/>
-    <title>Library - book info</title>
+    <title>Library | book info</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta content="" name="description"/>
     <meta content="" name="author"/>
@@ -19,6 +19,7 @@
     <![endif]-->
 
     <!-- GLOBAL STYLES -->
+    <link rel="shortcut icon" href="<c:url value="/resources/img/favicon.ico"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/plugins/bootstrap/css/bootstrap.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/assets/css/custom.css"/>">
     <link rel="stylesheet" href="<c:url value="/resources/assets/css/main.css"/>">
