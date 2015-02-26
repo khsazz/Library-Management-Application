@@ -236,9 +236,11 @@
                                     <tr class="gradeA odd">
                                         <td>${issue.issueID}</td>
                                         <td class="sorting_1">
-                                            <a href="/bookDetails/${issue.bookBookId}">${issue.bookBookId}</a>
+                                            <a href="<c:url value="/bookDetails/${issue.bookBookId}"/>">${issue.bookBookId}</a>
                                         </td>
-                                        <td class=" "><a href="/bookDetails/${issue.bookBookId}">${issue.bookName}</a></td>
+                                        <td class=" ">
+                                            <a href="<c:url value="/bookDetails/${issue.bookBookId}"/>">${issue.bookName}</a>
+                                        </td>
                                         <td class=" ">${issue.studentRegNo}</td>
                                         <td class="center ">
                                             <fmt:formatDate type="date" pattern="dd-MM-yyyy"
