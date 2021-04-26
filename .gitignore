@@ -49,3 +49,6 @@ Temporary Items
 
 #Custom Directories Added by Khsazz
 target/
+/.idea/
+/lib/
+/Library_One/Library_One.iml
